@@ -1,0 +1,34 @@
+
+<html>
+    <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Ask.Date and Ask.Weekday </title>
+    <link rel="stylesheet" href="../../Treant.css">
+    <link rel="stylesheet" href="ask_date.css">
+
+</head>
+<body>
+    Ask.Date.Case1<br>
+    <div class="chart" id="ask-case1"></div>
+    Ask.Date.Case2<br>
+    <div class="chart" id="ask-case2"></div>
+    Ask.Date.Case3<br>
+    <div class="chart" id="ask-case3"></div>
+    Ask.Date.Case4<br>
+    <div class="chart" id="ask-case4"></div>
+
+    <script src="../../vendor/raphael.js"></script>
+    <script src="../../Treant.js"></script>
+
+    <script src="ask_date.js"></script>
+    <script>
+        new Treant( ask_date_case1_chart_config );
+        new Treant( ask_date_case2_chart_config );
+        new Treant( ask_date_case3_chart_config );
+        new Treant( ask_date_case4_chart_config );
+    </script>
+</body>
+</html>
