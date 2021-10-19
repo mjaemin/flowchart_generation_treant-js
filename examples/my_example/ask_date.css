@@ -1,0 +1,64 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+
+body { background: #fff; }
+/* optional Container STYLES */
+/*.chart { height: 600px; margin: 5px; width: 900px; }*/
+/* .chart { margin: 5px;} */
+.chart {vertical-align:middle;}
+.Treant > .node {  }
+.Treant > p { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: bold; font-size: 12px; }
+.Treant > .greenNode { background-color: #DBFED6; }
+.Treant > .redNode { background-color: #FED6D6; border-radius: 1px;}
+.Treant > .purpleNode { background-color: #C299C4; border-radius: 1px;}
+.node-name { text-align: center; font-weight: bold; position: absolute; top:50%; left:50%;transform: translate(-50%, -50%);}
+.node-title { text-align: center}
+.node-condition {text-align: center}
+/* .node-desc { padding: 2px; color: #999; } */
+.node-remark { text-align: center; position: absolute; top: 100%;}
+.node-res_ex { position: absolute; top: 50%; left: 110%; white-space: nowrap;}
+/* .node-title { margin-top: 3px; } */
+
+.nodeExample1 {
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    width: 170px; height: 50px;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+.nodeFallback {
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: #C299C4;
+    border: 1px solid #000;
+    width: 150px; height: 50px;
+    font-family: Tahoma;
+    font-size: 12px;
+
+}
+.nodeExample1 img {
+    margin-right:  10px;
+}
+.nodeStart {
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 7px;
+    background-color: #dddddd;
+    border: 1px solid #000;
+    width: 150px; height: 50px;
+    font-family: Tahoma;
+    font-size: 12px;
+
+}
